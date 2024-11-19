@@ -1,0 +1,59 @@
+.movies_row{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.movie{
+    width: 100%;
+    object-fit: contain;
+    max-height: 250px;
+    margin-right: 10px;
+    transition: transform 450ms;
+
+}
+
+
+.movie:hover{
+    transform: scale(1.01);
+}
+
+
+.Row{
+    margin-left: 10px;
+    /* background-color: black; */
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    color: white;
+    background-color: black;
+}
+/* .banner_img{
+   background-size: cover;
+   height: 500px;
+   width: 100%;
+} */
+.banner{
+    position: relative;
+    
+}
+.banner-content{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 20px;
+    color: burlywood;
+   
+    
+}
+.netflix_img{
+    img{
+        width: 250px;
+        margin-top: -80px;
+        margin-left: 20px;
+        position: fixed;
+        
+        
+    }
+}
